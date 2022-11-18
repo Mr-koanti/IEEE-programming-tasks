@@ -21,7 +21,7 @@ def pop():
         print("the stake is empty")
     else:
         Stack=Stack[:x]
-        print(f"{Stack[x-1]} elemnt is removed succsessfully.")
+        print(f" The elemnt {Stack[x-1]} is removed succsessfully.")
         
         
 for i in range(10):   
@@ -45,7 +45,7 @@ print(Stack)
 8 is added succsessfuly.
 9 is added succsessfuly.
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-8elemnt is removed succsessfully.
+The elemnt 8 is removed succsessfully.
 [0, 1, 2, 3, 4, 5, 6, 7, 8]
  ```
  
